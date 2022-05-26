@@ -100,7 +100,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"لسورس", f"ادو", f"اضو"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/6a139afb3be1e581341aa.jpg",
+        photo=f"https://telegra.ph/file/48cc19f09c0e8c8fdc9d3.jpg",
         caption=f"""اهلا وسهلا بك في سورس كوبرا مميزات السورس قويه وفريده يمكنك امتلاك بوت كامل حقوقك قوم بمراسلة مطور السورس""",
         reply_markup=InlineKeyboardMarkup(
          [

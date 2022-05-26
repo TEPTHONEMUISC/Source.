@@ -12,7 +12,7 @@
 
 ## 🎭 حقوق السورس
 <p align="center">
-  <img src="https://telegra.ph/file/0e4fef92ee9baacf520d1.jpg">
+  <img src="https://telegra.ph/file/6a139afb3be1e581341aa.jpg">
 </p>
 
 ## ✨ المميزات

@@ -30,7 +30,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "•  مطور السوس •", url="https://t.me/P17_12",
+                        "•  مطور السورس •", url="https://t.me/P17_12",
                     )
                 ],
                 [InlineKeyboardButton("", callback_data="cbhowtouse")],
@@ -86,7 +86,7 @@ async def cbguides(_, query: CallbackQuery):
 async def cbcmds(_, query: CallbackQuery):
     await query.answer("قائمة الاوامر")
     await query.edit_message_text(
-        f"""» **قم بالضغط علي الزر الذي تريده لمعرفه الاوامر لكل فئه منهم !**
+        f"""» **قم بالضغط على الزر الذي تريده لمعرفه الاوامر لكل فئه منهم !**
 
 ⚡ قناة البوت @{UPDATES_CHANNEL}""",
         reply_markup=InlineKeyboardMarkup(

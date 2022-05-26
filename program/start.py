@@ -101,11 +101,11 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/48cc19f09c0e8c8fdc9d3.jpg",
-        caption=f"""اهلا وسهلا بك في سورس كوبرا مميزات السورس قويه وفريده يمكنك امتلاك بوت كامل حقوقك قوم بمراسلة مطور السورس""",
+        caption=f"""اهلا وسهلا بك في سورس تيبثون مميزات السورس قويه وفريده يمكنك امتلاك بوت كامل حقوقك قوم بمراسلة مطور السورس""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("قناة السورس الرسمية", url=f"https://t.me/VFF35"),
+                InlineKeyboardButton("قناة السورس الرسمية", url=f"https://t.me/muisc_Tepthone"),
             ],
             [
                 InlineKeyboardButton(

@@ -2,11 +2,10 @@ tgcrypto
 asyncio
 ffmpeg-python
 py-tgcalls
-pyrogram
-youtube-search-python
-yt-dlp
-lyricsgenius
-speedtest-cli
+pyrogram==1.4.16
+youtube-search-python==1.4.9
+yt-dlp==2021.11.10.1
+youtube-dl
 youtube-search
 python-dotenv
 dnspython
@@ -15,6 +14,7 @@ aiofiles
 aiohttp
 requests
 pillow
+heroku3
 motor
 psutil
 future

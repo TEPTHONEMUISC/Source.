@@ -100,12 +100,12 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"لسورس", f"ادو", f"اضو"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/48cc19f09c0e8c8fdc9d3.jpg",
+        photo=f"https://telegra.ph/file/2f6762e96eab0a1ef3644.jpg",
         caption=f"""اهلا وسهلا بك في سورس تيبثون مميزات السورس قويه وفريده يمكنك امتلاك بوت كامل حقوقك قوم بمراسلة مطور السورس""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("قناة السورس الرسمية", url=f"https://t.me/muisc_Tepthone"),
+                InlineKeyboardButton("قناة السورس الرسمية", url=f"https://t.me/Tepthon"),
             ],
             [
                 InlineKeyboardButton(

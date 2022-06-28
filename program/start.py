@@ -101,7 +101,7 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/2f6762e96eab0a1ef3644.jpg",
-        caption=f"""اهلا وسهلا بك في سورس تيبثون مميزات السورس قويه وفريده يمكنك امتلاك بوت كامل حقوقك قوم بمراسلة مطور السورس""",
+        caption=f"""اهلا وسهلا بك في سورس تيبثون مميزات السورس قويه وفريده يمكنك امتلاك بوت بكامل حقوقك قوم بمراسلة مطور السورس""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
